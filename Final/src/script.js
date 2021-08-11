@@ -25,7 +25,7 @@ function showTemperature(response) {
   let wind = document.querySelector("#wind");
   wind.innerHTML = Math.round(response.data.wind.speed);
   let mainIcon = document.querySelector("#main-icon");
-  let fetchIcon = response.data.weather.[0].icon;
+  let fetchIcon = response.data.weather[0].icon;
   mainIcon.innerHTML = `<img src="/src/icons/${fetchIcon}.png"/>`;
 
   let temperature = Math.round(response.data.main.temp);
