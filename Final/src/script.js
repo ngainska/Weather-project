@@ -1,10 +1,10 @@
 let now = new Date();
 let today = document.querySelector("h5.card-title");
 let days = [
-  "Sunday",
-  "Monday",
+ "Sunday",
+ "Monday",
   "Tuesday",
-  "Wednesday",
+ "Wednesday",
   "Thursday",
   "Friday",
   "Saturday"
